@@ -10,7 +10,7 @@ enum class RoundTarget {
 }
 fun main() {
     // test
-    val testInput = File("day02-test.txt").readLines()
+    val testInput = File("inputs/day02-test.txt").readLines()
     day02Part1(testInput)
     println("----------")
     day02Part2(testInput)
@@ -18,7 +18,7 @@ fun main() {
     println("----------------------------------------")
 
     // actual
-    val realInput = File("day02.txt").readLines()
+    val realInput = File("inputs/day02.txt").readLines()
     day02Part1(realInput)
     println("----------")
     day02Part2(realInput)

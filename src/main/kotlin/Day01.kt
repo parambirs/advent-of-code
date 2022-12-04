@@ -2,13 +2,13 @@ import java.io.File
 
 fun main() {
     // test
-    val testInput = File("day01-test.txt").readText()
+    val testInput = File("inputs/day01-test.txt").readText()
     day01(testInput)
 
     println("----------")
 
     // actual
-    val realInput = File("day01.txt").readText()
+    val realInput = File("inputs/day01.txt").readText()
     day01(realInput)
 }
 
